@@ -13,14 +13,14 @@ var draw = 0;
 elRock.addEventListener('click', function () {
   var random = Math.floor(Math.random() * (3 - 1 + 1) + 1);
 
- if(random == 1) {
+ if(random === 1) {
    elWin.textContent = ++num;
    elScore.textContent = ++num;
    elInfo.textContent = "Yutdingiz😎";
- } else if(random == 2) {
+ } else if(random === 2) {
    elLose.textContent = ++lose;
    elInfo.textContent = "Yutkazdingiz😐";
- } else if(random == 3) {
+ } else if(random === 3) {
    elDraw.textContent = ++draw;
    elInfo.textContent = "Durrang🙂";
  }
@@ -29,14 +29,14 @@ elRock.addEventListener('click', function () {
 elScissors.addEventListener('click', function () {
   var random = Math.floor(Math.random() * (3 - 1 + 1) + 1);
 
- if(random == 1) {
+ if(random === 1) {
    elWin.textContent = ++num;
    elScore.textContent = ++num;
    elInfo.textContent = "Yutdingiz😎";
- } else if(random == 2) {
+ } else if(random === 2) {
    elLose.textContent = ++lose;
    elInfo.textContent = "Yutkazdingiz😐";
- } else if(random == 3) {
+ } else if(random === 3) {
    elDraw.textContent = ++draw;
    elInfo.textContent = "Durrang🙂";
  }
@@ -45,14 +45,14 @@ elScissors.addEventListener('click', function () {
 elPaper.addEventListener('click', function () {
   var random = Math.floor(Math.random() * (3 - 1 + 1) + 1);
 
- if(random == 1) {
+ if(random === 1) {
    elWin.textContent = ++num;
    elScore.textContent = ++num;
    elInfo.textContent = "Yutdingiz😎";
- } else if(random == 2) {
+ } else if(random === 2) {
    elLose.textContent = ++lose;
    elInfo.textContent = "Yutkazdingiz😐";
- } else if(random == 3) {
+ } else if(random === 3) {
    elDraw.textContent = ++draw;
    elInfo.textContent = "Durrang🙂";
  }
